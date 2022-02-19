@@ -8,7 +8,11 @@ const routes = [
   { 
     path: '/memory',
     component: MemoryPage
-  }
+  },
+  {path: '/DetailPage', 
+  component: ()=>import('../pages/DetailPage.vue')}
+  
+
 
 ]
 
